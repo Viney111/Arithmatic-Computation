@@ -16,7 +16,8 @@ namespace Computation
             int b = Convert.ToInt32(Console.ReadLine());
             Console.Write("Enter c: ");
             int c = Convert.ToInt32(Console.ReadLine());
-            Console.WriteLine($"a+b*c is { a + b * c}");
+            //Console.WriteLine($"a+b*c is { a + b * c}");
+            Console.WriteLine($"a*b+c is { a * b + c}");
             Console.ReadLine();
 
         }
